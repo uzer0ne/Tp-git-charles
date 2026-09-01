@@ -1,0 +1,17 @@
+h1 {
+  /* Police moderne et taille proportionnelle */
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  
+  /* Dégradé de couleur moderne sur le texte */
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Espacements et alignement */
+  text-align: center;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
