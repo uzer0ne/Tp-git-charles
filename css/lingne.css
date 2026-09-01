@@ -19,7 +19,7 @@ h1 {
 .footer {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.85rem;      /* Taille plus petite que le texte principal (environ 13-14px) */
-  color: #666666;          /* Gris discret pour réduire l'impact visuel */
+  color: #353434;          /* Gris discret pour réduire l'impact visuel */
   text-align: center;      /* Centre le texte dans le pied de page */
   padding: 20px 0;         /* Ajoute de l'espace au-dessus et en dessous */
   letter-spacing: 0.5px;   /* Améliore la lisibilité des petites polices */
