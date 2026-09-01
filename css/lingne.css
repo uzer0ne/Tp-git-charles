@@ -5,7 +5,7 @@ h1 {
   font-weight: 800;
   
   /* Dégradé de couleur moderne sur le texte */
-  background: linear-gradient(135deg, #6366f1, #a855f7);
+  background: linear-gradient(135deg, #57bfe7, #02ee5c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
