@@ -16,6 +16,7 @@ h1 {
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
+
 .footer {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.85rem;      /* Taille plus petite que le texte principal (environ 13-14px) */
@@ -25,3 +26,5 @@ h1 {
   letter-spacing: 0.5px;   /* Améliore la lisibilité des petites polices */
   opacity: 0.8;            /* Optionnel : adoucit encore la couleur */
 }
+
+.menu { background-color: lightgreen; color: white; }
