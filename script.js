@@ -22,6 +22,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // 3. Ajout d'un bouton de Mode Sombre (Dark Mode)
+    const darkModeBtn = document.createElement('button');
+    darkModeBtn.textContent = '🌙 Mode Sombre';
+    darkModeBtn.style.margin = '20px';
+    darkModeBtn.style.padding = '8px 16px';
+    darkModeBtn.style.cursor = 'pointer';
+    
+    // Insère le bouton juste avant le titre h1
+    const h1 = document.querySelector('h1');
+    h1.parentNode.insertBefore(darkModeBtn, h1);
+
+    darkModeBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        
+        if (document.body.classList.contains('dark-theme')) {
+            document.body.style.backgroundColor = '#1e1e1e';
+            document.body.style.color = '#ffffff';
+            darkModeBtn.textContent = '☀️ Mode Clair';
+        } else {
+            document.body.style.backgroundColor = '#ffffff';
+            document.body.style.color = '#000000';
+            darkModeBtn.textContent = '🌙 Mode Sombre';
+        }
+    });
    
     
 });
