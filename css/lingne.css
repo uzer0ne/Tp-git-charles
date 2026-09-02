@@ -16,6 +16,9 @@ h1 {
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
+h3{
+  color : palevioletred;
+}
 .footer {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.85rem;      /* Taille plus petite que le texte principal (environ 13-14px) */
